@@ -25,7 +25,7 @@ public class Diamond
             builder.Append(new String('*', stars));
             builder.Append('\n');
         }
-    
+        
         return builder.ToString();
 	}
 }
