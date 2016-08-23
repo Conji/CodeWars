@@ -19,11 +19,11 @@ public class Diamond
     
         for (var i = si; i <= ei; i++)
         {
-        var spaces = Math.Abs(i);
-        var stars = n - (spaces*2);
-        builder.Append(new String(' ', spaces));
-        builder.Append(new String('*', stars));
-        builder.Append('\n');
+            var spaces = Math.Abs(i);
+            var stars = n - (spaces*2);
+            builder.Append(new String(' ', spaces));
+            builder.Append(new String('*', stars));
+            builder.Append('\n');
         }
     
         return builder.ToString();
